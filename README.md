@@ -1,2 +1,2 @@
 # LiNk
-New GitHub portfolio. New me. New life. I'm kidding, that's cheesy, I just needed to create a new one for better structure.
+#### New Github portfolio. Removed my old one as it had some outdated code projects.
