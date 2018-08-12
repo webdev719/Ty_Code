@@ -1,0 +1,361 @@
+/* Tyler N. Resume Portfolio CSS */
+/********************************/
+
+
+/* Imports */
+/**********/
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Bungee|Bungee+Inline|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster+Two|Poiret+One');
+
+/* Main Rules */
+/*************/
+
+html {
+	font-size: 16px;
+	min-width: 100%;
+	background: url('../img/bwbeach.jpg') no-repeat center center fixed; 
+	min-height:100%;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+body {
+	min-width: 100%;
+	background: transparent;
+	min-height:100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	padding-top: 3.375rem;
+}
+
+* h2 {
+	font-size: 4rem;
+}
+
+
+
+/* Nav Bar Section */
+/******************/
+
+nav {
+	font-family: 'Bungee', sans-serif;
+	font-weight: lighter;
+	background-color: #333;
+}
+
+/*nav a.navbar-brand:hover {
+	background-color: deeppink;
+	color: #fff;
+	border-radius: 0.8rem;
+}*/
+
+nav a.nav-link:hover {
+	background-color: deeppink;
+	color: #fff;
+	border-radius: 0.8rem;
+	transform: scale(1.2);
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.fh5co-menu-btn, .fh5co-menu-btn i {
+	color: #fff;
+	font-size: 1.8rem;
+}
+
+
+
+/* Header */
+/*********/
+
+div.container-fluid {
+	margin-top: 4%;
+}
+
+h1#nameTitle {
+	font-family: 'Arima Madurai', sans-serif;
+	font-size: 3.4rem;
+	letter-spacing: 0.6rem;
+	font-weight: lighter;
+	color: #fff;
+	text-shadow: 2px 4px 1px #333,
+		3px 1px 8px #000,
+		2px 4px 1px #647277,
+		0 6px 1px #000,
+		2px 0 1px #fff,
+		3px 1px 8px #000,
+		6px 0 1px #333,
+		3px 4px 5px #555,
+		2px 0 1px #000,
+		0 0 4px #647277,
+		1px 6px 2px #000,
+		2px 0 1px #000,
+		-1px -4px 1px #333,
+		-3px 0 3px #333,
+		-2px -6px 7px #555,
+		0 0 4px #000,
+		-3px -3px 1px #333;
+}
+
+span#subnameTitle {
+	color: #333;
+	text-shadow: 2px 4px 1px #fff,
+		3px 1px 8px #fff,
+		2px 4px 1px #647277,
+		0 6px 1px #555,
+		2px 0 1px #fff,
+		3px 1px 8px #fff,
+		6px 0 1px #fff,
+		3px 4px 5px #555,
+		2px 0 1px #fff,
+		0 0 4px #647277,
+		1px 6px 2px #000,
+		2px 0 1px #333,
+		-1px -4px 1px #fff,
+		-3px 0 3px #555,
+		-2px -6px 7px #555,
+		0 0 4px #333,
+		-3px -3px 1px #000;
+}
+
+h3#jobTitle {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2.4rem;
+	color: #333;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+div#addressTitle {
+	margin-top: 1rem;
+	color: #333;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#addressTitle a {
+	color: #fff;
+	margin-left: 2rem;
+
+}
+
+div#addressTitle a:hover {
+	color: #333;
+}
+
+.baseStyle {
+	font-family: 'Poiret One', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+li a span:hover {
+	color: deeppink;
+	transform: scale(1);
+}
+
+/* Experience */
+/*************/
+
+section#experience {
+	border-top: 1px solid #fff;
+}
+
+div.my-auto h2 {
+	font-family: 'Poiret One', sans-serif;
+	margin-bottom: 2rem;
+	text-decoration: underline;
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+div.my-auto h3 {
+	font-size: 2rem;
+	font-family: 'Poiret One', sans-serif;
+	font-weight: bolder;
+}
+
+#experience p {
+	font-size: 1.4rem;
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+}
+
+
+/* Education */
+/************/
+
+/*#education h3, div.subheading, p {
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+*/
+section#education {
+	border-top: 1px solid #fff;
+	margin-top: 4rem;
+	margin-bottom: 15%;
+
+}
+
+#education h2 {
+	margin-top: 5%;
+}
+
+#education h3 {
+	text-decoration: underline;
+	font-size: 2.5rem;
+	color: #fff;
+	font-weight: lighter;
+}
+
+#education div.subheading {
+	text-decoration: none;
+}
+
+span.dates {
+	font-size: 2rem;
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+}
+
+
+
+
+/* Skills */
+/*********/
+
+section#skills {
+	border-top: 1px solid #fff;
+}
+
+#skills div.my-auto h2 {
+	margin-top: 5%;
+}
+
+#skills h2 {
+	font-size: 4rem;
+}
+
+div.subheading {
+	font-size: 2rem;
+	font-family: 'Lobster Two', sans-serif;
+	letter-spacing: 0.3rem;
+	margin-bottom: 1.5rem;
+	text-decoration: underline;
+}
+
+#skills .subheading {
+	color: #fff;
+	font-size: 2.4rem;
+}
+
+i.devicons {
+	font-size: 3.2rem;
+	margin-right: 1.8rem;
+}
+
+li.list-inline-item:hover {
+	color: #fff;
+	transform: scale(1.5);
+}
+
+#skills li, #skills a {
+	color: #222;
+}
+
+#skills li:hover, #skills a:hover {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+/* Interests */
+/************/
+
+section#interests {
+	margin-top: 10%;
+	margin-bottom: 15%;
+	border-top: 1px solid #fff;
+}
+
+#interests h2 {
+	margin-top: 15%;
+	font-size: 4rem;
+}
+
+#interests p {
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 2rem;
+}
+
+
+/* Media Queries */
+/****************/
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh; }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem; }
+      #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto; }
+      #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+        #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block; }
+          #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+            display: block; } }
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } }
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
