@@ -1,0 +1,132 @@
+/* Sloner & Nitsly Law Firm CSS */
+/* Web Designer: Tyler Nilsson */
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald');
+
+
+/* Main */
+
+html {
+  font-size: 16px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  max-width: 100%;
+  background-color: #1B0D02;
+  background: url('../img/claireanderson.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  padding:10px;
+  padding-bottom:60px; 
+}
+
+/* Navbar */
+
+nav {
+  background-color: rgba(255,255,255,0.5);
+}
+
+a.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  color: #222;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+
+a.nav-link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: lighter;
+  color: #222;
+  padding: 0;
+  margin: auto 0.4rem;
+  /*text-transform: uppercase;*/
+}
+
+a.navbar-brand:hover, a.nav-link:hover {
+  transform: scale(1.15);
+  color: #fff;
+  background-color: rgba(3,3,3,0.75);
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+/* Legal Services */
+div#legalHeader {
+  padding-bottom: 1.25rem;
+  margin: 5rem 1rem 1rem 4rem;
+  /*background: rgba(4,4,4,0.75);*/
+  color: #fff;
+  padding: 2rem 0 0 0;
+}
+
+div#legalHeader h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  font-size: 7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+  background-color: rgba(3,3,3,0.75);
+  overflow: hidden;
+  color: #fff;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
+
+footer header {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  float: left;
+}
+
+footer span {
+  margin-top: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 40%;
+}
+
+footer a {
+  color: red;
+}
+
+footer a:hover {
+  color: #fff;
+  transform: scale(1.3);
+}
+
+footer div.row {
+  margin-top: 0;
+}

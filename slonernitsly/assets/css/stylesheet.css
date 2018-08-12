@@ -1,0 +1,350 @@
+/* Sloner & Nitsly Law Firm CSS */
+/* Web Designer: Tyler Nilsson */
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald');
+
+
+/* Main */
+
+html {
+	font-size: 16px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+body {
+	max-width: 100%;
+	background: #bbb;
+
+}
+
+/* Navbar */
+
+nav {
+	/*background-color: rgba(255,255,255,0.5);*/
+	background-color: rgba(3,3,3,0.75);
+}
+
+a.navbar-brand {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	color: #bbb;
+	letter-spacing: 0.2rem;
+	padding: 0 1rem;
+	text-transform: uppercase;
+	float: left;
+}
+
+a.nav-link {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+	font-weight: lighter;
+	color: #fff;
+	padding: 0;
+	margin: auto 0.8rem;
+	/*text-transform: uppercase;*/
+}
+
+a.navbar-brand:hover, a.nav-link:hover {
+	transform: scale(1.15);
+	color: #fff;
+	background-color: rgba(0, 43, 255, 0.75);
+	border: 2px solid #fff;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+
+/* First Section */
+
+div#firstSection {
+	max-width: 100%;
+	background: url('../img/huntersrace.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+/* Header */
+
+div#headerBar, div.jumbotron {
+	margin-top: 4rem;
+	max-width: 100%;
+	background: transparent;
+	margin-bottom: 0;
+}
+
+div#headerBar h1 {
+	max-width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 0.25rem;
+	color: #fff;
+	font-size: 10rem;
+	text-transform: uppercase;
+}
+
+/* Info */
+
+div#info {
+	margin: 5rem auto 0.5rem auto;
+}
+
+div#info h2 {
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	text-shadow: 2px 3px 1px #000,
+		1px 2px 1px #fff,
+		3px 2px 1px #000,
+		3px 5px 1px #111,
+		2px 2px 1px #fff,
+		3px 2px 1px #000;
+	letter-spacing: 0.4rem;
+}
+
+div#info p {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	background-color: rgba(2,2,2,0.75);
+	padding: 1rem;
+	border-radius: 1rem;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	letter-spacing: 0.2rem;
+	line-height: 2.5rem;
+}
+
+div#info a {
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	background-color: #002BFF;
+	border: 2px solid #fff;
+	border-radius: 0.4rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+div#info a:hover {
+	transform: scale(1.2);
+	margin-left: 2.5rem;
+	cursor: pointer;
+	/*background-color: #333;*/
+	/*border: 2px solid #333;*/
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+div#info address {
+	color: #fff;
+	background-color: #002BFF;
+	padding: 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;
+	border-radius: 0.4rem;
+}
+
+div#info address a {
+	background: transparent;
+	color: #fff;
+	border: none;
+}
+
+div#info address {
+	margin-left: 1rem;
+}
+
+div#info address span {
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+/* Clients */
+
+div#clients {
+	background: rgba(3,3,3,0.9);
+	border-radius: 6rem;
+}
+
+div#clients header span {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3rem;
+	color: #fff;
+	margin-bottom: 8rem;
+}
+
+div#clients .card {
+	width: 20%;
+	padding: 1rem;
+	background-color: #333;
+	margin: 2rem 1rem;
+	border-radius: 0.6rem;
+
+}
+
+div#clients img {
+	width: 100%;
+	border-top-left-radius: 0.4rem;
+	border-top-right-radius: 0.4rem;
+	margin-bottom: 1rem;
+}
+
+div#clients span {
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.75rem;
+}
+
+div#clients p {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+	font-size: 1rem;
+	letter-spacing: 0;
+	background-color: #002BFF;
+	border: 2px solid #002BFF;
+	border-radius: 0.2rem;
+}
+
+/* Second Section */
+
+div#secondSection {
+	max-width: 100%;
+	background: url('../img/claireanderson.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	display: block;
+	margin: 0;
+}
+
+div#legalHeader {
+  padding-bottom: 1.25rem;
+  /*margin: 5rem 1rem 1rem 4rem;*/
+  color: #fff;
+  padding: 2rem 0 0 0;
+
+}
+
+div#legalHeader h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  font-size: 10rem;
+  margin: 10% auto 0 auto;
+}
+
+/* Side Note */
+
+div#sideNote .sidebar {
+	padding: 2rem 3rem 1rem 3rem;
+	background-color: #222;
+	border-radius: 0.4rem;
+	/*margin: auto auto 10% auto;*/
+	float: right;
+}
+
+div#sideNote h4 {
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3rem;
+	letter-spacing: 0.2rem;
+}
+
+div#sideNote h2 {
+	color: #002BFF;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.35rem;
+	font-weight: lighter;
+	font-size: 2.45rem;
+	text-transform: uppercase;
+}
+
+div#sideNote p {
+	color: #bbb;
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;}
+
+/* Legal Info */
+
+div#legalInfo {
+	background-color: rgba(2,2,2,0.75);
+	border-radius: 1rem;
+	border: 2px solid #fff;
+}
+
+div#legalInfo h2 {
+	color: #002BFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+	margin: 2rem auto;
+}
+
+div#legalInfo p {
+	color: #bbb;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5rem;
+}
+
+div#legalInfo h3 {
+	color: #002BFF;
+	font-size: 2.5rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+div#legalInfo li {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+}
+
+/* Footer */
+
+footer {
+	background-color: rgba(3,3,3,0.75);
+	overflow: hidden;
+	color: #fff;
+	padding-bottom: 2%;
+	margin: 0;
+}
+
+footer header {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.6rem;
+	float: left;
+}
+
+footer span {
+	margin-top: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 40%;
+}
+
+footer a {
+	color: red;
+}
+
+footer a:hover {
+	color: #002BFF;
+	transform: scale(1.3);
+}
+
+footer div.row {
+	margin-top: 0;
+}
