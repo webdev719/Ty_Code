@@ -1,0 +1,237 @@
+/* Sloner Nitsly CSS */
+ /* Web Designer: Tyler LiNk Nilsson */
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Dosis|Scope+One|Spectral+SC|Bungee');
+
+
+/* Main */
+
+html {
+  font-size: 16px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #333;
+  background: url('../img/coloradohike.jpg') no-repeat center center fixed; 
+  min-height:100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Nav */
+
+nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  float: left; 
+}
+
+h3#name {
+  font-size: 2.4rem;
+  color: #fff;
+  font-family: 'Poiret One', sans-serif;
+  border-radius: 1rem;
+    text-shadow: 1px 1px 1px #000,
+    1px 1px 1px #333,
+    1px 1px 1px #000,
+    1px 1px 1px #222,
+    2px 2px 1px #333,
+    2px 2px 1px #000,
+    -2px -2px 1px #222,
+    3px 3px 1px #000,
+    3px 3px 1px #222,
+    4px 4px 1px #222,
+    8px 8px 1px #000,
+    9px 9px 1px #000,
+    9px 9px 1px #333;
+}
+
+
+nav a:hover, a#activePage:hover {
+  font-size: 2.2rem;
+  color: #111;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 1px #000,
+    1px 1px 1px #333,
+    1px 1px 1px #000,
+    1px 1px 1px #222,
+    2px 2px 1px #333,
+    2px 2px 1px #000,
+    -2px -2px 1px #222,
+    3px 3px 1px #000,
+    3px 3px 1px #222,
+    4px 4px 1px #222,
+    8px 8px 1px #000,
+    9px 9px 1px #000,
+    9px 9px 1px #333;
+}
+
+a.nav-link {
+  color: #fff;
+  font-family: 'Poiret One', sans-serif;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  float: left;
+}
+
+/* Main */
+
+div#contact {
+  margin-top: 10%;
+}
+
+div.jumbotron {
+  background-color: rgba(142, 19, 142, 0.75);
+  border-radius: 1rem;
+}
+
+div#contact h1 {
+  color: #fff;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 4rem;
+}
+
+div#contact p {
+  background-color: #333;
+  border-radius: 0.4rem;
+  padding: 0;
+  color: #fff;
+  font-family: 'Spectral SC', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+/*  text-shadow: 1px 1px 1px #000,
+    1px 1px 1px #333,
+    1px 1px 1px #000,
+    1px 1px 1px #222,
+    2px 2px 1px #333,
+    2px 2px 1px #000,
+    -2px -2px 1px #222,
+    3px 3px 1px #000,
+    3px 3px 1px #222,
+    4px 4px 1px #222,
+    8px 8px 1px #000,
+    9px 9px 1px #000,
+    9px 9px 1px #333;*/
+}
+
+/* Contact Form */
+
+form#contactForm {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+form#contactForm label {
+  color: #333;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+input#name, input#comp, input#email {
+  background-color: #333;
+  color: #fff;
+  width: 80%;
+}
+
+form#contactForm i {
+  margin-left: 1rem;
+}
+
+.jumbotron input.btn {
+  background-color: #fff;
+  font-weight: 700;
+  color: #222;
+  border-color: #fff;
+  letter-spacing: 0.4rem;
+  /*padding: .75rem 1.5rem;*/
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+  font-family: 'Bungee', sans-serif;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 1px #000,
+    1px 1px 1px #333,
+    1px 1px 1px #000,
+    1px 1px 1px #222,
+    2px 2px 1px #333,
+    2px 2px 1px #000,
+    -2px -2px 1px #222,
+    3px 3px 1px #000,
+    3px 3px 1px #222,
+    4px 4px 1px #222,
+    8px 8px 1px #000,
+    9px 9px 1px #000,
+    9px 9px 1px #333;
+}
+
+.jumbotron input.btn:hover {
+  background-color: #8E138E;
+  color: #fff;
+  border-color: #8E138E;
+  font-size: 1.3rem;
+  box-shadow: none;
+}
+
+textarea {
+  background-color: #333;
+  color: #fff;
+  width: 80%;
+  padding-bottom: 20%;
+}
+
+
+/* Footer */
+
+hr.footerDivider {
+  height: 0.5rem;
+  margin-top: 10%;
+  width: 30%;
+  background-color: #8E138E;
+  border-color: #000;
+  border-radius: 0.4rem;
+}
+
+footer {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  /*font-size: 1.4rem;*/
+}
+
+a.footerTag {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+a.footerTag:hover {
+  text-decoration: none;
+  color: deeppink;
+}
+
+footer i {
+  color: #fff;
+  padding-right: 1.5rem;
+}
+
+footer i:hover {
+  color: deeppink;
+  transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}

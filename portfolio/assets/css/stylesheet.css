@@ -1,0 +1,311 @@
+ /* Sloner Nitsly CSS */
+ /* Web Designer: Tyler LiNk Nilsson */
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Dosis|Spectral+SC|Bungee');
+
+
+/* Main */
+
+html {
+	font-size: 16px;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+body {
+	background-color: #333;
+	background: url('../img/compglasses1.jpg') no-repeat center center fixed; 
+	min-height:100%;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+a {
+	cursor: pointer;
+}
+
+/* Nav */
+
+nav {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+h3#name {
+	opacity: 1;
+	font-size: 2.4rem;
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+	border-radius: 1rem;
+    text-shadow: 1px 1px 1px #000,
+		1px 1px 1px #333,
+		1px 1px 1px #000,
+		1px 1px 1px #222,
+		2px 2px 1px #333,
+		2px 2px 1px #000,
+		-2px -2px 1px #222,
+		3px 3px 1px #000,
+		3px 3px 1px #222,
+		4px 4px 1px #222,
+		8px 8px 1px #000,
+		9px 9px 1px #000,
+		9px 9px 1px #333;
+}
+
+a#activePage {
+	opacity: 1;
+	font-size: 2rem;
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+	border-radius: 1rem;
+}
+
+
+nav a:hover, a#activePage:hover {
+  font-size: 2.2rem;
+  color: #111;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 1px #000,
+    1px 1px 1px #333,
+    1px 1px 1px #000,
+    1px 1px 1px #222,
+    2px 2px 1px #333,
+    2px 2px 1px #000,
+    -2px -2px 1px #222,
+    3px 3px 1px #000,
+    3px 3px 1px #222,
+    4px 4px 1px #222,
+    8px 8px 1px #000,
+    9px 9px 1px #000,
+    9px 9px 1px #333;
+}
+
+a.nav-link {
+	opacity: 1;
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+	border-radius: 1rem;
+	font-size: 2rem;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0.2rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+/* Header */
+
+.jumbotron {
+	margin-top: 5%;
+	background: transparent;
+	text-align: center;
+	/*border-bottom: 0.4rem solid deeppink;*/
+	/*border-top: 0.4rem solid deeppink;*/
+}
+
+h1.topHeader {
+	font-weight: 250;
+	color: #fff;
+	letter-spacing: 0.4rem;
+	font-family: 'Bungee', sans-serif;
+	text-shadow: 1px 1px 1px #000,
+		1px 1px 1px #333,
+		1px 1px 1px #000,
+		1px 1px 1px #222,
+		2px 2px 1px #333,
+		2px 2px 1px #000,
+		-2px -2px 1px #222,
+		3px 3px 1px #000,
+		3px 3px 1px #222,
+		4px 4px 1px #222,
+		8px 8px 1px #000,
+		9px 9px 1px #000,
+		9px 9px 1px #333;
+}
+
+h6.bottomHeader {
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+	letter-spacing: 0.4rem;
+	font-size: 2rem;
+}
+
+p.lead {
+	margin-top: 1.4rem;
+	letter-spacing: 0.2rem;
+	color: #fff;
+	font-family: 'Spectral SC', sans-serif;
+	font-size: 2.2rem;
+}
+
+.jumbotron a.btn {
+	background-color: #fff;
+	font-weight: 700;
+	color: #222;
+	border-color: #fff;
+	letter-spacing: 0.4rem;
+	/*padding: .75rem 1.5rem;*/
+	font-size: 1.5rem;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+	margin-top: 3rem;
+	font-family: 'Bungee', sans-serif;
+	border-radius: 1rem;
+	box-shadow: 1px 1px 1px #000,
+		1px 1px 1px #333,
+		1px 1px 1px #000,
+		1px 1px 1px #222,
+		2px 2px 1px #333,
+		2px 2px 1px #000,
+		-2px -2px 1px #222,
+		3px 3px 1px #000,
+		3px 3px 1px #222,
+		4px 4px 1px #222,
+		8px 8px 1px #000,
+		9px 9px 1px #000,
+		9px 9px 1px #333;
+}
+
+.jumbotron a.btn:hover {
+	background-color: #8E138E;
+	color: #fff;
+	border-color: #8E138E;
+	font-size: 1.3rem;
+	box-shadow: none;
+}
+
+/* Skills */
+
+div#skills {
+	margin-top: 8%;
+	background-color: rgba(3, 3, 3, 0.6);
+	border-radius: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+div#skills h2 {
+	color: #fff;
+	font-family: 'Bungee', sans-serif;
+	font-size: 2.8rem;
+	/*text-decoration: underline;*/
+/*	text-shadow: 1px 1px 1px #000,
+		1px 1px 1px #333,
+		1px 1px 1px #000,
+		1px 1px 1px #222,
+		2px 2px 1px #333,
+		2px 2px 1px #000,
+		-2px -2px 1px #222,
+		3px 3px 1px #000,
+		3px 3px 1px #222,
+		4px 4px 1px #222,
+		8px 8px 1px #000,
+		9px 9px 1px #000,
+		9px 9px 1px #333;*/
+	margin-bottom: 1rem;
+}
+
+div#skills i {
+	font-size: 6.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+/*	text-shadow: 1px 1px 1px #000,
+		1px 1px 1px #333,
+		1px 1px 1px #000,
+		1px 1px 1px #222,
+		2px 2px 1px #333,
+		2px 2px 1px #000,
+		-2px -2px 1px #222,
+		3px 3px 1px #000,
+		3px 3px 1px #222,
+		4px 4px 1px #222,
+		8px 8px 1px #000,
+		9px 9px 1px #000,
+		9px 9px 1px #333;*/
+}
+
+div#skills i:hover {
+	color: #fff;
+	font-size: 7.2rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+ul#skillsList {
+	margin-top: 15%;
+	margin-bottom: 20%;
+	background-color: rgba(142, 19, 142, 0.4);
+	border-radius: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+ul#skillsList span {
+	color: #fff;
+	font-family: 'Bungee', sans-serif;
+	font-size: 2.5rem;
+}
+
+ul#skillsList li {
+	color: #fff;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.8rem;
+}
+
+ul#skillsList li:hover {
+	color: #000;
+	font-weight: 700;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+/* Footer */
+
+hr.footerDivider {
+  height: 0.5rem;
+  margin-top: 60%;
+  width: 30%;
+  background-color: #8E138E;
+  border-color: #000;
+  border-radius: 0.4rem;
+}
+
+footer {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  /*font-size: 1.4rem;*/
+}
+
+a.footerTag {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+a.footerTag:hover {
+  text-decoration: none;
+  color: deeppink;
+}
+
+footer i {
+  color: #fff;
+  padding-right: 1.5rem;
+}
+
+footer i:hover {
+  color: deeppink;
+  transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
