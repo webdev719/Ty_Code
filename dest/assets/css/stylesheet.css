@@ -1,0 +1,303 @@
+/* Dest. Nomad */
+/* Web Designer: Tyler LiNk Nilsson */
+
+
+/* FONT STYLES */
+/*-----------*/
+
+/* 
+	- Bungee Inline
+	- Bungee Shade
+	- Merriweather
+	- Oswald
+*/
+
+
+/* Main */
+html {
+	font-size: 16px;
+	/*max-width: 100%;*/
+}
+
+body {
+	background-color: #019FFF;
+	overflow-x: hidden;
+}
+
+
+/* Navbar */
+nav {
+	/*background: rgba(1,155,255,0.75);*/
+	background: #222;
+	height: 10%;
+	padding: 2rem 0;
+}
+
+a.navbar-brand {
+	color: #777;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.45rem;
+	letter-spacing: 0.4rem;
+	text-transform: uppercase;
+	padding-top: 4%;
+}
+
+a.navbar-brand span:last-child {
+	color: #fff;
+}
+
+a.navbar-brand img {
+	margin-right: 2rem;
+	padding-top: 7%;
+}
+
+a.nav-link {
+	font-family: 'Bungee Inline', sans-serif;
+	font-size: 1.75rem;
+	color: #fff;
+	font-weight: lighter;
+	margin-left: 2.5rem;
+	padding: 0 1rem;
+	letter-spacing: 0.4rem;
+	text-shadow: 2px 3px 1px #000,
+		4px 2px 1px #000,
+		1px 1px 1px #000;
+}
+
+a.nav-link:hover {
+	color: #019FFF;
+	text-shadow: none;
+	background-color: #fff;
+	border-radius: 0.4rem;
+}
+
+nav span.destTitle {
+	color: #fff;
+	font-size: 1.5rem;
+	font-family: 'Lobster Two', sans-serif;
+	margin-left: 3rem;
+	padding: 0;
+}
+
+.destTitle:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+	transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+
+/* Header */
+
+div#destHeader {
+	background: url('../img/info/snowyroad.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 7.5% 0;
+	padding-bottom: 25%;
+}
+
+div#destHeader div.pull-right {
+	background-color: rgba(4,4,4,0.75);
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	padding: 2.5%;
+	border-radius: 1.5rem;
+}
+
+div#destHeader p {
+	font-size: 1.45rem;
+}
+
+div#destHeader a {
+	background-color: #019FFF;
+	color: #fff;
+	border: none;
+	font-size: 2rem;
+	border-radius: 0.75rem;
+}
+
+div#destHeader a:hover {
+	background-color: #fff;
+	color: #002BFF;
+	transform: scale(1.15);
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+span#arrowDown, span#arrowDown a {
+	background: transparent;
+	color: #fff;
+	margin: 0 5rem;
+}
+
+span#arrowDown a:hover, span#arrowDown:hover {
+	color: #002BFF;
+	cursor: pointer;
+}
+
+
+/* Journey Gallery */
+
+div#destInfo {
+	max-width: 100%;
+	background: url('../img/info/balloonride.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-bottom: 10%;
+}
+
+div#destInfo section {
+	margin: 0;
+}
+
+div#destInfo h2 {
+	margin-top: 0;
+	color: #fff;
+	font-family: 'Bungee Inline', sans-serif;
+	font-size: 9rem;
+}
+
+div#destInfo span {
+	color: #fff;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 1.4rem;
+}
+
+div#destInfo p {
+	color: #fff;
+	font-size: 5rem;
+	font-family: 'Bungee Inline', sans-serif;
+	text-shadow: 2px 4px 1px #000,
+		4px 7px 1px #333,
+		2px 2px 1px #000,
+		8px 4px 1px #222,
+		3px 6px 1px #222,
+		2px 9px 1px #000;
+	padding: 0;
+	margin: 0;
+}
+
+div#destInfo div.col-md-6 {
+	margin-bottom: 5rem;
+}
+
+
+/* Journey Gallery - Images */
+
+div#destInfo img {
+	border-radius: 1rem;
+	opacity: 0.75;
+}
+
+div#destInfo img:hover {
+	opacity: 1;
+	transform: scale(1.15);
+	box-shadow: 2px 4px 1px #000,
+		4px 7px 1px #333,
+		2px 2px 1px #000,
+		8px 4px 1px #222,
+		3px 6px 1px #222,
+		2px 9px 1px #000;
+	transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+}
+
+
+/* About Section */
+
+section#about h2 {
+	font-family: 'Bungee Shade', sans-serif;
+	letter-spacing: 0.4rem;
+	font-size: 5rem;
+}
+
+section#about p {
+	color: #222;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 0.15rem;
+}
+
+
+/* Contact Section */
+
+section#contact {
+	max-width: 100%;
+	background: url('../img/info/icyhome.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-bottom: 10%;
+}
+
+section#contact h2 {
+	color: #333;
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+	padding-top: 5rem;
+}
+
+section#contact h2 strong {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+section#contact label {
+	color: #222;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 1.5rem;
+}
+
+button#sendButton {
+	background-color: #019BFF;
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 0.4rem;
+}
+
+button#sendButton:hover {
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+	transform: scale(1.15);
+	box-shadow: 2px 4px 1px #000,
+		2px 4px 1px #333,
+		2px 2px 1px #000,
+		3px 1px 1px #222,
+		1px 2px 1px #222,
+		4px 2px 1px #000;
+	transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+}
+
+
+/* Footer */
+
+footer h4 {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+}
+
+footer h4 strong {
+	color: #222;
+}
+
+/* Social Links */
+
+i.fa-facebook:hover, i.fa-twitter:hover, i.fa-dribbble:hover {
+	color: red;
+}
