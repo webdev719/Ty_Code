@@ -1,0 +1,103 @@
+/* To Do List App CSS3 */
+
+/* Main */
+html {
+    font-size: 16px;
+}
+:root {
+    --orange: #D86510;
+    --blue: #33D1FF;
+    --red: #FF0000;
+    --green: #10D813;
+    --grey: #324149;
+    --black: #231f20;
+}
+body {
+    max-width: 100%;
+    background-color: #555;
+    background: url('./citybw.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow-x: hidden;
+}
+/* Hide input fields until 'Edit' is selected */
+.hide {
+    display: none;
+}
+/* Header/Input */
+div#app h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    text-shadow: 0 1px 0 hsl(174,5%,80%),
+    0 4px 0 hsl(174,5%,66%),
+    0 5px 0 hsl(174,5%,64%),
+    0 0 5px rgba(0,0,0,.05),
+    0 1px 3px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.3);
+    border-bottom: 2px solid var(--red);
+}
+div#app input {
+    text-transform: uppercase;
+    position: relative;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    width: 15%;
+    text-align: center;
+    /* margin-top: 3rem; */
+    background-color: var(--grey);
+    border: 2px solid var(--blue);
+    border-radius: 0.4rem;
+}
+/* Edit Input Field */
+div.item-text {
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+/* Action Buttons */
+div#app button.action-btn {
+    margin: 0.5rem 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+div#app button#add-btn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    background-color: var(--blue);
+    color: #fff;
+    border-color: var(--blue);
+    border-radius: 0.4rem;
+    padding: 0 1.25rem;
+}
+div#app button.update-btn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: var(--grey);
+    background-color: var(--blue);
+    border: 2px solid var(--blue); 
+    border-radius: 0.2rem;   
+}
+div#app button.edit-btn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: var(--grey);
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    border-radius: 0.2rem;      
+}
+div#app button.remove-btn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: var(--grey);
+    background-color: var(--red);
+    border: 2px solid var(--red);
+    border-radius: 0.2rem;
+}

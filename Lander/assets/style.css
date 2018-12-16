@@ -1,3 +1,7 @@
+/* Manifest Project */
+/* Dev: Ty Nilsson */
+/* Started: 12/15/2018 */
+
 @import url('https://fonts.googleapis.com/css?family=Oswald:200|Staatliches');
 
 html {
@@ -36,10 +40,12 @@ nav {
     padding: 10px 100px;
     box-sizing: border-box;
     transition: 0.3s;
+    border-bottom: 1px solid #f1f1f1;
+    background: rgba(52, 152, 219, 0.75);
 }
 
 nav.black {
-    background: rgba(0,0,0,0.75);
+    background: rgb(52, 152, 219);
     height: 100px;
     padding: 10px 100px;
 }
@@ -50,6 +56,7 @@ nav .logo {
     float: left;
     font-size: 24px;
     transition: 0.3s;
+    font-size: 1.45rem;
 }
 
 nav.black .logo {
@@ -75,11 +82,16 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.3s;
+    font-size: 1.45rem;
 }
 
 nav.black ul li a {
     color: #fff;
     border-radius: 1rem;
+}
+
+nav.black ul li a.active {
+    color: #231f20;
 }
 
 nav ul li a:focus {
@@ -102,29 +114,68 @@ nav ul li a:hover {
 div#splash section {
     width: 100%;
     height: 100vh;
-    background: url(./businessmag.jpg) no-repeat center;
+    background: url(./coloradohike.jpg) no-repeat center;
     background-size: cover;
 }
 
-div#splash section header {
+div#splash section#main div.header {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+section#main div.header h1 {
+    color: #f1f1f1;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Oswald', cursive;
+    margin-bottom: 8px;
+}
 
+section#main div.header p {
+    color: #f1f1f1;
+    font-size: 2rem;
+    font-weight: 200;
+}
 
-
-
+section#main div.header button {
+    color: #fff;
+    background: rgb(255, 87, 51);
+    padding: 0.5rem 3.75rem;
+    font-size: 1.45rem;
+    font-family: 'Oswald', sans-serif;
+    /* font-weight: 700; */
+    letter-spacing: 0.15rem;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+}
 
 
 /* ======================== */
 /* COUNTDOWN / SUBSCRIPTION */
 /* ======================== */
 
-
-.page {
+div.page {
     background: linear-gradient(to bottom left, #05a1fa, #fff);
     display: flex;
     flex-wrap: wrap;
+}
+
+div.page h1.pageheader {
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    margin-top: 12rem;
+    font-size: 3rem;
+    color: #f1f1f1;
+    font-weight:100;
+    text-shadow: 2px 3px 1px #000,
+        3px 1px 2px #000,
+        1px 4px 3px #000,
+        2px 3px 1px #000;
 }
 
 .col {
@@ -134,7 +185,7 @@ div#splash section header {
 }
 
 .countdown-col {
-    background: url(./snowpeak.jpg) no-repeat center;
+    background: url(./compglasses2.jpg) no-repeat center;
     background-size: cover;
 }
 
