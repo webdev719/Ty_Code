@@ -8,6 +8,7 @@
 ####    -Email Subscription [X]
 ####    -Meet The Team      [X]
 ####    -Social Media       [X]
+####    -Prices             [ ]
 ####    -Our Services       [X]
 ####    -Contact Us         [ ]
 

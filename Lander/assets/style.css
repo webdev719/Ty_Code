@@ -24,100 +24,17 @@ h2 {
         1px 2px 2px #000,
         1px 4px 1px #000;
     letter-spacing: 0.15rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
-/* ======================== */
-/* NAVIGATION BAR / SPLASH  */
-/* ======================== */
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    padding: 10px 100px;
-    box-sizing: border-box;
-    transition: 0.3s;
-    border-bottom: 1px solid #f1f1f1;
-}
-
-nav.black {
-    background: linear-gradient(to bottom left, #05a1fa, #fff);
-    height: 15%;
-    padding: 10px 100px;
-}
-
-nav .logo {
-    padding: 22px 20px;
-    height: 80px;
-    float: left;
-    font-size: 2rem;
-    transition: 0.3s;
-    font-size: 1.45rem;
-}
-
-nav.black .logo {
-    color: #fff;
-}
-
-nav ul {
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav ul li a {
-    line-height: 80px;
-    color: #151515;
-    padding: 12px 30px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.3s;
-    font-size: 1rem;
-}
-
-nav.black ul li a {
-    color: #fff;
-    border-radius: 1rem;
-}
-
-nav.black ul li a.active {
-    color: #231f20;
-}
-
-nav ul li a:focus {
-    outline: none;
-}
-
-nav ul li a.active {
-    outline: none;
-    color: #fff;
-    background-color: rgb(255, 87, 51);
-    border: 1px solid rgb(255, 87, 51);
-    border-radius: 1rem;
-    padding: 0.25rem 1rem;
-}
-
-nav ul li a:hover {
-    border: 1px solid rgb(255, 87, 51);
-    color: #fff;
-    background-color: rgb(255, 87, 51);
-    border-radius: 1rem;
-    transition: all ease-in-out 0.5s;
-}
+/* =================== */
+/* MAIN SPLASH SECTION */
+/* =================== */
 
 div#splash section {
     width: 100%;
     height: 100vh;
-    background: url(./snowpeak.jpg) no-repeat center;
+    background: url(./roads.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -135,18 +52,21 @@ div#splash section#main div.header {
 }
 
 section#main div.header h1 {
-    color: #f1f1f1;
-    font-size: 3rem;
-    font-weight: 400;
+    color: #479dff;
+    font-size: 9rem;
+    font-weight: 100;
+    letter-spacing: 1rem;
+    margin-bottom: -2rem;
+    margin-top: 5rem;
+    /* text-decoration: underline; */
     font-family: 'Oswald', cursive;
-    margin-bottom: 2rem;
 }
 
 section#main div.header p {
     text-shadow: none;
     color: #f1f1f1;
     font-size: 2rem;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 section#main div.header a.btn {
@@ -446,3 +366,97 @@ div.page h1.pageheader {
         width: 100%;
     }
 }
+
+
+
+
+/* SAVE FOR POSSIBLE LATER USE. */
+
+
+
+/* ======================== */
+/* NAVIGATION BAR / SPLASH  */
+/* ======================== */
+/* 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+nav.black {
+    background: linear-gradient(to bottom left, #05a1fa, #fff);
+    height: 15%;
+    padding: 10px 100px;
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 2rem;
+    transition: 0.3s;
+    font-size: 1.45rem;
+}
+
+nav.black .logo {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+nav.black ul li a {
+    color: #fff;
+    border-radius: 1rem;
+}
+
+nav.black ul li a.active {
+    color: #231f20;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav ul li a.active {
+    outline: none;
+    color: #fff;
+    background-color: rgb(255, 87, 51);
+    border: 1px solid rgb(255, 87, 51);
+    border-radius: 1rem;
+    padding: 0.25rem 1rem;
+}
+
+nav ul li a:hover {
+    border: 1px solid rgb(255, 87, 51);
+    color: #fff;
+    background-color: rgb(255, 87, 51);
+    border-radius: 1rem;
+    transition: all ease-in-out 0.5s;
+} */
