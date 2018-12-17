@@ -6,6 +6,7 @@
     <title>Manifest</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
 </head>
 <body>
     <!-- Navbar -->
@@ -20,18 +21,97 @@
                 <li><a href="#">Login</a></li>
             </ul>
         </nav>
+        <!-- Splash -->
         <section id="main">
             <div class="header">
                 <h1>Manifest</h1>
-                <p>
-                    Colorado Springs / Nilsson
-                </p>
-                <button type="button">View Details</button>
+                <p>The Future of Web Development</p>
+                <a class="btn" href="#services">Design &amp; Services</a>
             </div>
         </section>
     </div>
+    <!-- Design & Services -->
+    <div id="services" class="services">
+        <h1>Design &amp; Services</h1>
+        <div class="cen">
+            <div class="service">
+                <i class="fab fa-dev"></i>
+                <h2>Service Name</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="service">
+                <i class="fab fa-html5"></i>
+                <h2>Service Name</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="service">
+                <i class="fab fa-css3-alt"></i>
+                <h2>Service Name</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="service">
+                <i class="fab fa-js-square"></i>
+                <h2>Service Name</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="service">
+                <i class="fab fa-react"></i>
+                <h2>Service Name</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-user-secret"></i>
+                <h2>Service Name</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Meet The Team -->
+    <div id="team" class="team-section">
+        <div class="inner-width">
+            <h1>Meet Our Team</h1>
+            <div class="pers">
+                <div class="pe">
+                    <img src="./assets/donaldteel.jpg" alt="Unsplash.com Photo By Donald Teel" />
+                    <div class="p-name">Spuds Mckenzie</div>
+                    <div class="p-des">Front-End Engineer/Designer</div>
+                    <div class="p-sm">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pers">
+                <div class="pe">
+                    <img src="./assets/jakobowens.jpg" alt="Unsplash.com Photo By Jakob Owens" />
+                    <div class="p-name">Thor Valla</div>
+                    <div class="p-des">Back-End Engineer</div>
+                    <div class="p-sm">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pers">
+                <div class="pe">
+                    <img src="./assets/mariaguerra.jpg" alt="Unsplash.com Photo By Maria Guerra" />
+                    <div class="p-name">Coots Magrier</div>
+                    <div class="p-des">Boss Man</div>
+                    <div class="p-sm">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Countdown Timer/Email Signup -->
-    <div class="page">
+    <div id="timer" class="page">
         <div class="countdown-col col">
             <h1 class="pageheader">Coding in progress</h1>
             <div class="time middle">
@@ -69,5 +149,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="./assets/timer.js"></script>
     <script src="./assets/navbar.js"></script>
+    <script type="text/javascript">
+        var dc = 'https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw';
+        var unsplash = [];
+        unsplash.push('Photo by Donald Teel on Unsplash');
+        unsplash.push('Photo by Jakob Owens on Unsplash');
+        unsplash.push('Photo by María Guerra on Unsplash');
+        console.log('Meet The Team Photos Taken From unsplash.com by: ' + unsplash);
+        console.log('A tip of the hat to DarkCode as well!');
+    </script>
 </body>
 </html>
