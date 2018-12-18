@@ -53,7 +53,7 @@ div#splash section#main div.header {
 
 section#main div.header h1 {
     color: #479dff;
-    font-size: 9rem;
+    font-size: 10rem;
     font-weight: 100;
     letter-spacing: 1rem;
     margin-bottom: -2rem;
@@ -65,7 +65,7 @@ section#main div.header h1 {
 section#main div.header p {
     text-shadow: none;
     color: #f1f1f1;
-    font-size: 2rem;
+    font-size: 3rem;
     /* margin-bottom: 3rem; */
 }
 
@@ -100,18 +100,22 @@ section#main div.header a.btn:hover {
 /* DESIGN & SERVICES SECTION */
 /* ========================= */
 
-.services {
-    background: #f1f1f1;
+div#services {
+    /* background: #f1f1f1; */
+    background: linear-gradient(to bottom right, #bbb, #231f20);
     text-align: center;
+    /* padding-top: 3rem; */
+    padding-bottom: 3rem;
 }
 
 .services h1 {
     display: inline-block;
     text-transform: uppercase;
     border-bottom: 4px solid #3498db;
-    font-size: 20px;
-    padding-bottom: 10px;
-    margin-top: 40px;
+    width: 50%;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
 }
 
 .cen {
@@ -148,16 +152,21 @@ section#main div.header a.btn:hover {
 }
 
 .service h2 {
-    font-size: 1.25rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 100;
+    color: #bbb;
+    text-shadow: none;
     margin: 0;
+    font-family: 'Staatliches', sans-serif;
 }
 
 .service p {
-    color: #555;
-    font-size: 1rem;
-    font-weight: 200;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    /* text-transform: lowercase; */
 }
 
 /* ======================= */
