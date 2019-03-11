@@ -6,7 +6,11 @@ HTML5, CSS3, JavaScript, jQuery, React, Angular, Vue, Ruby, Rails, Python, Djang
 #### A few of the graphic design tools I use are:
 Adobe Illustrator, Xd, Photoshop, BrightRoom, & Sketch
 
-#### https://www.behance.net/gallery/77380339/DataBot-inc
+
+My Behance Page
+#### https://www.behance.net/tydev7192d80
+
+
 ### Company/Client Websites & Apps I've built:
 
 ##### Let's work together! Email me at: tydev719@gmail.com
